@@ -1,0 +1,234 @@
+{
+    "processors": 
+    [
+        {
+            "id":1,
+            "name":"AMD Ryzen 5 3600",
+            "price": 199,
+            "image": "shopPictures/AMD53600.png"
+        },
+
+        {
+            "id":2,
+            "name":"AMD Ryzen 7 3800X",
+            "price": 399,
+            "image":  "shopPictures/AMD73800X.png"
+        },
+
+        {
+            "id":3,
+            "name":"AMD Ryzen 9 5900",
+            "price": 261.62,
+            "image":  "shopPictures/AMD95900.png"
+        },
+
+        {
+            "id":4,
+            "name":"Intel Core i5 6500",
+            "price": 93.78,
+            "image": "shopPictures/Inteli56500.png" 
+        },
+
+        {
+            "id":5,
+            "name":"Intel Core i3 8100F",
+            "price": 99,
+            "image":  "shopPictures/inteli38100.png"
+        },
+
+        {
+            "id":6,
+            "name":"Intel Core i9 9900K",
+            "price": 365,
+            "image":  "shopPictures/inteli99900.png"
+        }
+
+
+    ],
+
+    "GPU": 
+    [
+        {
+            "id":7,
+            "name":"ASUS ROG STRIX AMD Radeon RX 580 8GB",
+            "price": 299,
+            "image":  "shopPictures/ASUS580.png"
+        },
+
+        {
+            "id":8,
+            "name":"Sapphire Pulse AMD Radeon RX 9070 XT",
+            "price": 899,
+            "image":  "shopPictures/sapphire9070.png"
+        },
+
+        {
+            "id":9,
+            "name":"MSI Ventus GeForce RTX 3060 12GB",
+            "price": 329,
+            "image":  "shopPictures/msi.webp"
+        },
+
+        {
+            "id":10,
+            "name":"NVIDIA GeForce RTX 4070 Super Founders Edition",
+            "price": 599,
+            "image":  "shopPictures/NVIDIA.png"
+        },
+
+        {
+            "id":11,
+            "name":"PowerColor Red Devil RX 6700 XTF",
+            "price": 479,
+            "image":  "shopPictures/PowerColor.png"
+        },
+
+        {
+            "id":12,
+            "name":"ASUS Dual GeForce RTX 4060 8GB",
+            "price": 299,
+            "image":  "shopPictures/geforce4060.png"
+        }
+
+
+    ],
+
+    "motherboards": 
+    [
+        {
+            "id":13,
+            "name":" Gigabyte GA-B150M-D3H (rev 1.0)",
+            "price": 80,
+            "image":  "shopPictures/d3h.jfif"
+        },
+
+        {
+            "id":14,
+            "name":"ASRock B450 Steel Legend",
+            "price": 110,
+            "image":  "shopPictures/ASRock.png"
+        },
+
+        {
+            "id":15,
+            "name":"MSI MPG B550 Gaming Plus",
+            "price": 150,
+            "image":  "shopPictures/MPGB550.png"
+        },
+
+        {
+            "id":16,
+            "name":"ASUS ROG Strix B650-A Gaming WiFi",
+            "price": 239,
+            "image":  "shopPictures/asusrog.webp"
+        },
+
+        {
+            "id":17,
+            "name":"MSI PRO Z690-A DDR4",
+            "price": 189,
+            "image":  "shopPictures/MSIPRO.png"
+        },
+
+        {
+            "id":18,
+            "name":"Gigabyte B760M DS3H AX DDR4",
+            "price": 129,
+            "image":  "shopPictures/b760m.png"
+        }
+
+
+    ],
+
+    "RAM": 
+    [
+        {
+            "id":17,
+            "name":" HyperX FURY DDR4 8GB 3200MHz — MSRP",
+            "price": 45,
+            "image":  "shopPictures/HyperX.png"
+        },
+
+        {
+            "id":18,
+            "name":"Corsair Vengeance LPX DDR4 8GB 3200MHz",
+            "price": 45,
+            "image":  "shopPictures/Vengeance.webp"
+        },
+
+        {
+            "id":19,
+            "name":"G.Skill Ripjaws V DDR4 8GB 3200MHz",
+            "price": 45,
+            "image":  "shopPictures/Ripjaws.png"
+        },
+
+        {
+            "id":20,
+            "name":"TeamGroup T-Force Vulcan Z DDR4 8GB 3200MHz",
+            "price": 38,
+            "image":  "shopPictures/TeamGroup.webp"
+        }
+
+        
+
+
+    ],
+
+    "storage": 
+    [
+        {
+            "id":21,
+            "name":"Samsung 970 Evo Plus 1TB NVMe SSD",
+            "price": 169,
+            "image":  "shopPictures/Samsung970.png"
+        },
+
+        {
+            "id":22,
+            "name":"Seagate BarraCuda 2TB HDD",
+            "price": 55,
+            "image":  "shopPictures/Seagate.png"
+        },
+
+        {
+            "id":23,
+            "name":"Western Digital Blue SN570 1TB NVMe SSD",
+            "price": 69,
+            "image":  "shopPictures/DigitalBlue.png"
+        },
+
+        {
+            "id":24,
+            "name":"Crucial MX500 1TB SATA SSD",
+            "price": 89,
+            "image":  "shopPictures/Crucial.png"
+        },
+
+        {
+            "id":25,
+            "name":"Kingston A2000 1TB NVMe SSD",
+            "price": 99,
+            "image":  "shopPictures/Kingston.png"
+        },
+
+        {
+            "id":26,
+            "name":"Toshiba X300 4TB 7200 RPM HDD",
+            "price": 105,
+            "image":  "shopPictures/Toshiba.png"
+        }
+
+
+    ]
+}
+
+    
+
+    
+
+
+   
+
+
+    

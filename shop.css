@@ -1,0 +1,312 @@
+body{
+    background: black;
+    font-family: "Jersey 10", serif;
+    font-style: normal;
+    padding: 50px;
+    padding-top: 5px;
+    color: #fff;
+    width: 1000px;
+    max-width: 90vw;
+    align-items: center;
+    margin:auto; 
+
+}
+
+
+nav {
+	display: flex;
+    justify-content: flex-end; 
+}
+
+
+.navBar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #000000;
+	}
+ 
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+ 
+nav a:hover { 
+	background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+nav ul ul li{
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+    z-index: 2;
+    
+}
+
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 70px; 
+}
+
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+
+
+#logo{
+    color: dark rgba(9, 3, 67, 0.839);
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:larger;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+	list-style: none;
+    padding-right: 270px;
+	
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+
+#mainImg{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.head{
+    justify-items: end;
+}
+
+.cart{
+    width: 350px;
+    background-color: rgba(32,32,36,255);
+    justify-content: center;
+    font-size: 20px;
+    font-weight: lighter;
+    
+    
+    
+}
+
+
+.addToCartB button{
+   width: 115.1px;
+   height: 35px;
+   background-color: rgba(32,32,36,255);
+   box-shadow: none;
+   color: white;
+   font-family: "Jersey 10", serif;
+
+}
+
+
+
+#Wcart{
+    width: 410px;
+    max-width: 100% ;
+    background-color:rgba(32,32,36,255);
+    color: black;
+    position: fixed;
+    inset: 0 0 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px ;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    margin-left: 40px;
+    border-radius: 10px;
+    height: 750px;
+    visibility: hidden;
+     
+
+}
+
+.listCart{
+    overflow-y:scroll ;
+    scrollbar-width: 5px;
+
+}
+
+
+
+#quantB
+{
+    background-color: red;
+    color: white;
+    font-family: "Jersey 10", serif;
+    border-radius: 5px;
+    font-size: 15px;
+    font-size: medium;
+    border: none;
+   
+}
+
+#cartImg{
+    width:80px;
+    
+}
+
+
+.cont1
+{
+    width: 250px;
+    height: 300px;
+    background-color:rgba(32,32,36,255) ;
+    border-radius: 10px;
+
+}
+
+.cont2
+{
+    width: 200px;
+    height: 250px;
+    background-color:rgba(32,32,36,255) ;
+    border-radius: 10px;
+    
+
+}
+
+.productImg{
+    
+   
+    width:  100%;
+    height: auto;
+    background-size: cover;
+
+}
+
+.processors,.gpu,.motherboard,.ram,.storage{
+     display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.info{
+    text-align: center;
+    font-size: 21px;
+    width: 200px;
+}
+
+.info1{
+    text-align: center;
+    font-size: 21px;
+    width: 250px;
+}
+
+
+div h1{
+    text-align: center;
+    background-color: rgba(32,32,36,255) ;
+    letter-spacing: 10px;
+   
+}
+
+#price{
+    font-size: 25px;
+}
+
+.button{
+    background-color:rgba(32,32,36,255);
+    width: 100px;
+    color: white;
+    height: 25px;
+    border-radius: 15px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+.tHead
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(32,32,36,255);
+}
+
+.close{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.cHeading{
+    font-size: 25px;
+    letter-spacing: 5px;
+
+}
+
+.item
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; /* Prevents wrapping */
+    justify-content: left;
+    gap: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+.quantity
+{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+#prodName{
+    width: 125px;
+    text-align: left;
+}
+
+.dec,.inc{
+    background-color: #FFF;
+    color: #000000;
+    border-radius: 15px;
+    width: 20px;
+    cursor: pointer;
+}
+
+#cPrice{
+    width: 50px;
+    text-align: left;
+}
+
+#displayTotal{
+    font-size: 25px;
+    color: #FFF;
+}
+
+
+
+
