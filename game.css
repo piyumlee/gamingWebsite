@@ -539,6 +539,7 @@ iframe{
     grid-gap: 10px;
     justify-content: center;
     position: relative;
+    justify-content: space-evenly;
     
 
 }
@@ -808,6 +809,7 @@ iframe{
     font-size: 3vh;
    text-align: center;
    
+   
     
 }
 
@@ -817,6 +819,10 @@ iframe{
     border-radius: 15px;
     justify-content: center;
 
+}
+
+.question1{
+   
 }
 
 .cont11{
@@ -842,11 +848,16 @@ iframe{
 .Qform{
     width: 500px;
     padding: 40px;
-    background:beige;
-    justify-content:center;
-    margin-top: 60px;
+    background: beige;
+    margin: 40px auto; 
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
 
 }
+
+
 
 .Qform h2{
     font-size: 30px;
